@@ -7,127 +7,52 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-    <style>
-      body {
-          background-color: #9575CD
-      }
-
-      .scroll {
-          color: #fff;
-          margin-top: 100px
-      }
-
-      #toTopBtn {
-          position: fixed;
-          bottom: 26px;
-          right: 39px;
-          z-index: 98;
-          padding: 21px;
-          background-color: hsla(5, 76%, 62%, .8)
-      }
-
-      .js .cd-top--fade-out {
-          opacity: .5
-      }
-
-      .js .cd-top--is-visible {
-          visibility: visible;
-          opacity: 1
-      }
-
-      .js .cd-top {
-          visibility: hidden;
-          opacity: 0;
-          transition: opacity .3s, visibility .3s, background-color .3s
-      }
-
-      .cd-top {
-          position: fixed;
-          bottom: 20px;
-          bottom: var(--cd-back-to-top-margin);
-          right: 20px;
-          right: var(--cd-back-to-top-margin);
-          display: inline-block;
-          height: 40px;
-          height: var(--cd-back-to-top-size);
-          width: 40px;
-          width: var(--cd-back-to-top-size);
-          box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
-          background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
-          background-color: hsla(5, 76%, 62%, .8);
-          background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
-      }
-
-      .height {
-          height: 3000px
-      }
-    </style>
   </head>
   <body class="jumbotron">
     <header>
       
     </header>
-    <nav navbar navbar-expand-lg navbar-dark bg-dark>
+    <nav navbar navbar-expand-lg>
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Técnina 01</a>
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Técnica de Consulta ao Usuário: Observação</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Técnica 02</a>
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#moscanaparede" role="tab" aria-controls="profile" aria-selected="false">Mosca na parede</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Técnica 03</a>
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#monitoramentoonline" role="tab" aria-controls="contact" aria-selected="false">Monitoramento online</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#sombra" role="tab" aria-controls="contact" aria-selected="false">Sombra</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#avaliaçãoheuristica" role="tab" aria-controls="contact" aria-selected="false">Avaliação heurística</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#referencias" role="tab" aria-controls="contact" aria-selected="false">Avaliação heurística</a>
         </li>
       </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">.
-          <h3>Content 01</h3>
-          <h3>Content 01</h3>
-          <h3>Content 01</h3>
-          <h3>Content 01</h3>
-          <h3>Content 01</h3>
-          <h3>Content 01</h3>
-          <h3>Content 01</h3>
-          <h3>Content 01</h3>
 
+      <div class="tab-content" id="myTabContent">        
+        
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+         <h4>Técnicas de Observação</h4>
         </div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
-          <h5>Content 02</h5>
+
+        <div class="tab-pane fade" id="moscanaparede" role="tabpanel" aria-labelledby="moscanaparede-tab">
+          </div>
+        <div class="tab-pane fade" id="monitoramentoonline" role="tabpanel" aria-labelledby="monitoramentoonline-tab">
+          
         </div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03</h2>
-          <h2>Content 03 </h2>
+        <div class="tab-pane fade" id="sombra" role="tabpanel" aria-labelledby="sombra-tab">
+          
+        </div>
+        <div class="tab-pane fade" id="avaliaçãoheuristica" role="tabpanel" aria-labelledby="avaliaçãoheuristica-tab">
+          
+        </div>
+        <div class="tab-pane fade" id="referencias" role="tabpanel" aria-labelledby="referencias-tab">
+          
         </div>
       </div>
     </nav>
